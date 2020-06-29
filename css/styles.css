@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: olivedrab;
+  color: var(--gray-dark);
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: olivedrab;
+  color: var(--gray-dark);
   text-decoration: underline;
 }
 
@@ -6097,7 +6097,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: olivedrab !important;
+  background-color: var(--gray-dark) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9799,11 +9799,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: olivedrab !important;
+  color: var(--gray-dark) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: olivedrab !important;
+  color: var(--gray-dark) !important;
 }
 
 .text-secondary {
@@ -10100,7 +10100,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: olivedrab;
+  background-color: var(--blue);
 }
 
 .dev-icons {
